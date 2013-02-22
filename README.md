@@ -31,10 +31,10 @@ Enter `spring-integration-version`
 ```
 
 `spring-integration-version` simply declares a `dependencyManagement` entry for
-each Spring Integration module, at it's own `project.version`. So,
+each Spring Integration module, at its own `project.version`. So,
 `spring-integration-version` `2.1.5.RELEASE` will result in any Spring
 Integrtion transitive dependency being imported at `2.1.5.RELEASE`. Done,
-finished and klar!
+finished and klaar!
 
 There are companion projects to handle other SpringSource project versions, such
 as
