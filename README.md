@@ -4,7 +4,7 @@ If you've ever created a moderately complex project which uses Spring, you've
 likely come across issues having to manage versions of Spring transitive
 dependencies.
 
-Your project uses Spring Integration 2.2.1.RELEASE, but something else you're
+Your project uses Spring Integration 2.2.2.RELEASE, but something else you're
 depending on imports some otherwise unused Spring Integration module, at
 2.0.1.RELEASE.
 
@@ -21,7 +21,7 @@ Enter `spring-integration-version`
       <dependency>
         <groupId>com.github.ptomli.spring-integration-version</groupId>
         <artifactId>spring-integration-version</artifactId>
-        <version>2.2.1.RELEASE</version>
+        <version>2.2.2.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -32,8 +32,8 @@ Enter `spring-integration-version`
 
 `spring-integration-version` simply declares a `dependencyManagement` entry for
 each Spring Integration module, at its own `project.version`. So,
-`spring-integration-version` `2.2.1.RELEASE` will result in any Spring
-Integrtion transitive dependency being imported at `2.2.1.RELEASE`. Done,
+`spring-integration-version` `2.2.2.RELEASE` will result in any Spring
+Integrtion transitive dependency being imported at `2.2.2.RELEASE`. Done,
 finished and klaar!
 
 There are companion projects to handle other SpringSource project versions, such
