@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.ptomli.spring-integration-version</groupId>
 	<artifactId>spring-integration-version</artifactId>
-	<version>2.2.3.RELEASE-SNAPSHOT</version>
+	<version>2.2.5.RELEASE-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Spring Integration Version</name>
@@ -80,7 +80,7 @@
 	</profiles>
 
 	<properties>
-		<spring.version>2.2.2.RELEASE</spring.version>
+		<spring.version>2.2.5.RELEASE</spring.version>
 	</properties>
 
 	<dependencyManagement>
