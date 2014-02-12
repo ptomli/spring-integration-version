@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.ptomli.spring-integration-version</groupId>
 	<artifactId>spring-integration-version</artifactId>
-	<version>3.0.1.RELEASE</version>
+	<version>3.0.2.RELEASE-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Spring Integration Version</name>
@@ -21,7 +21,7 @@
 		<url>http://github.com/ptomli/spring-integration-version</url>
 		<connection>scm:git:git://github.com/ptomli/spring-integration-version.git</connection>
 		<developerConnection>scm:git:git@github.com:ptomli/spring-integration-version.git</developerConnection>
-	  <tag>v3.0.1.RELEASE</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<issueManagement>
